@@ -1,0 +1,21 @@
+.services-title{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+
+}
+
+/*make a display reponsive*/
+@media  only screen  and (max-width: 570px){
+    
+    .services-container{
+        grid-template-columns: repeat(1,1fr)
+    }
+}
